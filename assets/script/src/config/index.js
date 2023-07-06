@@ -2,6 +2,7 @@ const app = require('./app');
 const PORT = require('./app')
 const database = require('./database');
 
+const PORT = process.env.PORT || 3000;
 
 function main() {
     database.connect((err) => {
