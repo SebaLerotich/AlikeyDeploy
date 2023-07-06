@@ -71,7 +71,7 @@ form.addEventListener("submit", async (e) => {
     });
   } else {
     let estado = 1;
-    await fetch("http://127.0.0.1:3000/personas/", {
+    await fetch("https://alikeydeploy-production.up.railway.app/personas/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

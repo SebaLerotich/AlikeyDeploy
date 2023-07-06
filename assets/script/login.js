@@ -35,7 +35,7 @@ form.addEventListener("submit", async (e) => {
         const usuario = user.value;
         const password = pass.value;
 
-        await fetch(`http://127.0.0.1:3000/personas/${usuario}`)
+        await fetch(`https://alikeydeploy-production.up.railway.app/personas/${usuario}`)
             .then((response) => response.json())
             .then((data) => {
                 if(data.message){
