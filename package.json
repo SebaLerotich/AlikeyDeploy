@@ -2,7 +2,7 @@
   "name": "script",
   "version": "1.0.0",
   "description": "",
-  "main": "login.js",
+  "main": "index.html",
   "scripts": {
     "dev": "npx nodemon assets/script/src/config/index.js",
     "start": "node assets/script/src/config/index.js"
